@@ -24,3 +24,5 @@ npx -y cross-env "doh=https://dns.alidns.com/dns-query" 'ttl=180'  deno run --un
 添加了负载均衡的故障转移功能和校验dns数据包格式的功能
 
 设置doh服务的路径通过环境变量`DOH_PATHNAME`为 "/dns-query"
+
+把dns请求的post方法的形式转换为get方法形式,可以方便cdn缓存优化
