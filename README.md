@@ -20,3 +20,5 @@ npx -y cross-env "doh=https://dns.alidns.com/dns-query" 'ttl=180'  deno run --un
 
 例如设置 `doh`为
 `["https://doh.pub/dns-query","https://security.cloudflare-dns.com/dns-query"]`
+
+添加了负载均衡的故障转移功能和校验dns数据包格式的功能
