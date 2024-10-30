@@ -9,6 +9,7 @@
         "preview": "vite preview"
     },
     "devDependencies": {
+        "rollup" :"2.79.2",
         "typescript": "^5.2.2",
         "vite": "^5.2.14",
         "vite-plugin-pwa": "^0.19.8"
